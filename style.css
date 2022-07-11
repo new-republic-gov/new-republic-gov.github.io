@@ -1,0 +1,79 @@
+/*
+
+#8D8741
+#659DBD
+#DAAD86
+#BC986A
+#FBEEC1
+
+*/
+
+body {
+    background-color: #659DBD;
+}
+
+/* Color Classes */
+.color-a1 {
+    color: #8D8741;
+}
+.color-a2 {
+    color: #DAAD86;
+}
+.color-a3 {
+    color: #BC986A;
+}
+.color-a4 {
+    color: #FBEEC1;
+}
+.color-bg {
+    color: #659DBD;
+}
+.color-black {
+    color: #000000;
+}
+
+/* Text Classes */
+.center {
+    text-align: center;
+}
+.bold {
+    font-weight: 900;
+}
+.mono {
+    font-family: Courier, monospace;
+}
+.ul {
+    text-decoration-line: underline;
+}
+a {
+    color: #FBEEC1;
+}
+
+.arial {
+    font-family: Arial, sans-serif;
+}
+.verdana {
+    font-family: Verdana, sans-serif;
+}
+
+/* Image Classes */
+.headerflag {
+    width: 80%;
+    opacity: 50%;
+}
+
+/* divs */
+.titlediv {
+    position: relative;
+    text-align: center;
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    font-family: Verdana, sans-serif;
+    color: #FBEEC1;
+    font-size: 6vw;
+}
